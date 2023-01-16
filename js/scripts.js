@@ -32,7 +32,7 @@ printCards();
 
 function printCards() {
     for(let i = 0; i < arrEmployers.length; i++) {
-        // Creare il div
+        // Creazione div
         const newDiv = document.createElement('div');
         newDiv.classList.add('card');
         eleCardsContainer.append(newDiv);
