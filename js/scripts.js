@@ -51,7 +51,7 @@ function printCards() {
 
         // Creazione img
         const newImg = document.createElement('img');
-        newImg.src= "https://picsum.photos/200/300";
+        newImg.src= `img/${arrEmployers[i].image}`;
         newDiv.append(newImg);
 
         // Creazione h4
