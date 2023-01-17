@@ -28,6 +28,8 @@ const arrEmployers = [
     }
 ];
 
+console.log('arrEmployers', arrEmployers);
+
 printCards();
 
 function printCards() {
@@ -52,6 +54,8 @@ function printCards() {
         newP.innerHTML = arrEmployers[i].role;
         newDiv.append(newP);
 
-        console.log(arrEmployers[i].name);
+        console.log('name: ', arrEmployers[i].name);
+        console.log('role: ', arrEmployers[i].role);
+        console.log('image: ', arrEmployers[i].image);
     }
 }
